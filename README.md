@@ -2,7 +2,7 @@
 
 只映是一款面向 HarmonyOS 的多格式本地视频播放器，专注播放你自己选择的视频。只映 1.0.0 当前免费，无广告、订阅或应用内购买；这不是对未来所有版本或新增服务永久免费的承诺。
 
-**发布状态：只映 1.0.0 尚未在华为应用市场上架。** 本仓库先公开隐私政策与用户协议，正式版本附件将在准备完成后发布；没有附件的版本不代表已经提供下载。
+**发布状态：只映 1.0.0 尚未在华为应用市场上架。** 隐私政策与用户协议已公开；1.0.0 / 35-r2 的六份开源组件及重新组合材料现已发布，可在 [v1.0.0-35-r2-materials](https://github.com/dbz135260-art/zhiying-open-source/releases/tag/v1.0.0-35-r2-materials) 下载。材料公开不等于应用已经通过华为应用市场审核。
 
 本仓库用于提供与发行版本对应的第三方源码、修改、许可证、构建说明，以及用于 LGPL 库修改和重新组合的应用对象材料。请按实际安装版本选取 [Releases 中的版本资料](https://github.com/dbz135260-art/zhiying-open-source/releases)，并核对随附 SHA-256；只有实际列出的文件才表示已提供下载。
 
@@ -10,8 +10,8 @@
 
 | 材料 | 内容与入口（归档以 Release 实际附件为准） |
 | --- | --- |
-| `zhiying-1.0.0-third-party-source.tar.gz` | 实际播放核心对应的第三方源树、补丁、来源和完整许可。解压后阅读 `README.md`、`BUILD_AND_RELINK.md`。 |
-| 与构建号对应的 `zhiying-1.0.0-<构建号>-lgpl-relink-kit.tar.gz` | 编译后的应用对象/资源、兼容库替换和自有证书签名脚本、重组合说明与验证记录。确切应用版本和哈希在 `base/base-manifest.json`。 |
+| `zhiying-1.0.0-third-party-source-public-r2.tar.gz` | 实际播放核心对应的第三方源树、补丁、来源和完整许可。解压后阅读 `README.md`、`BUILD_AND_RELINK.md`。 |
+| `zhiying-1.0.0-35-lgpl-relink-kit-r2.tar.gz` | 编译后的应用对象/资源、兼容库替换和自有证书签名脚本、重组合说明与验证记录。确切应用版本和哈希在 `base/base-manifest.json`。 |
 | 校验清单与发布说明 | 标识归档和候选包的对应关系、已完成验证及剩余限制。以该次 Release 实际附件为准。 |
 | [隐私政策](privacy.html) · [用户协议](agreement.html) | 只映的数据处理、当前费用、使用范围及开源权利说明。 |
 
